@@ -1,0 +1,12 @@
+#!/bin/sh
+
+CMD=src/example.py
+
+main ()
+{
+    python2.6.exe ${CMD}
+    return 0
+}
+
+main
+
